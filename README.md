@@ -1,5 +1,5 @@
 # worklog
-log from phone
+log from phone tips
 to_jack
 
 robotics
