@@ -1,0 +1,38 @@
+Welcome to etherpad.net Pad!
+
+This pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!
+Images can be integrated either via drag and drop or copy and paste.
+
+Beware that pad contents will NOT be deleted. Anyone who has the address to this pad can access it, meaning you should carefully handle the link.
+
+In case of problems, you may contact: me@factor.cc
+
+
+This service is free to use. However, if you appreciate this, please consider donating at https://factor.cc/donate or directly via Bitcoin: 1DKq1oNucZNkzferazJZQVeWi8i6A3GUTW
+
+gpu
+buy one
+
+
+[cold-wallet]
+&re-distribution
+	okcoin
+http://www.sohu.com/a/5490630_113590
+
+SignRawTransaction 
+ getNewAddress
+ 
+ 
+https://bitcoin.org/en/developer-examples#simple-raw-transaction
+https://bitcoin.org/en/developer-guide#transactions
+https://bitcoin.org/en/developer-examples#complex-raw-transaction
+
+https://bitcoin.org/en/developer-reference#signrawtransaction
+https://bitcoin.org/en/developer-reference#dumpwallet
+
+
+[wequant]
+8btc forum
+
+
+https://bitinfocharts.com/top-100-richest-dash-addresses.html

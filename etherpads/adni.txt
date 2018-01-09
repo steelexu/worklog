@@ -1,0 +1,69 @@
+*general>
+https://en.wikipedia.org/wiki/Alzheimer%27s_Disease_Neuroimaging_Initiative
+MCI and dementia?
+
+stop in 2014?
+adni3.org,  http://www.alz.org/research/funding/partnerships/ww-adni_overview.asp
+http://www.ceoalzheimersinitiative.org/big-data-challenge-alzheimer%E2%80%99s-disease-launches-global-effort-use-innovative-open-science-techniques
+https://www.synapse.org/#!Synapse:syn2290704
+
+*data>
+aibl http://www.aibl.csiro.au
+miriad https://www.ucl.ac.uk/drc/research/methods/miriad-scan-database
+
+nacc   https://www.alz.washington.edu
+
+
+
+other longititual lifespan dataset
+oasis http://www.oasis-brains.org
+https://www.nitrc.org/projects/age-ility/
+https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/
+
+
+*method>
+	
+http://www.adni-info.org/Scientists/ADNIStudyProcedures.html
+
+http://www.adni-info.org/Scientists/doc/ADNI2MRITrainingManualVersion5_Oct2014_CLEAN.pdf
+
+using loni-ida
+
+
+*
+no resting in adni-3 !
+
+hcp-pipeline,  mrTrix?
+Use of Human Connectome Project MRI techniques to map the effects of AD on brain connectivity
+ As the disease progresses there are fewer connections between essential brain regions 
+ 
+  Hippocampal volume 
+Changes in brain atrophy patterns over time (measured by MRI)
+
+
+---->?hippocam~'s connectivity
+
+https://mila.umontreal.ca/en/cours/deep-learning-summer-school-2017/slides/
+
+*prediction/diagnose with D_learning + graph_model?
+
+Deep learning algorithms can diagnose AD with greater than 95% accuracy
+can diagnose MCI due to AD with greater than 82% accuracy
+
+Deep learning algorithms which extract the most pertinent information from MRI scans can also predict the progression of MCI patients to AD several years in advance with accuracies of greater than 90%.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4713389
+
+https://github.com/brainhack101/deepbrainhack2017/wiki/Projects
+
+
+
+*Imputation of missing modalities
+Using voxel-based 3D GAN, train a generator/discriminator convolutional neural network to generate synthetic FLAIR/T1 from T1/FLAIR to enable the use of complete datasets in instances of missing modalities. https://github.com/ravnoor/MRI-GAN
+
+deeplearning and fmri,cnn
+https://arxiv.org/pdf/1603.08631.pdf
+http://www.biorxiv.org/content/biorxiv/early/2016/07/31/066910.full.pdf
+
+Images can be integrated either via drag and drop or copy and paste.
+
