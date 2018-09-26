@@ -1,0 +1,10 @@
+
+graphx>
+http://spark.apache.org/docs/latest/graphx-programming-guide.html
+图数据库杂谈 安在.
+
+cyper for spark
+
+设备关系图谱
+我们使用HugeGraph存储手机号码、帐号ID、设备指纹等设备信息，通过ID-Mapping和关联分析，精确识别黑产作弊设备，并为业务风控提供细粒度的反作弊策略。
+
