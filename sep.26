@@ -7,4 +7,4 @@ cyper for spark
 
 设备关系图谱
 我们使用HugeGraph存储手机号码、帐号ID、设备指纹等设备信息，通过ID-Mapping和关联分析，精确识别黑产作弊设备，并为业务风控提供细粒度的反作弊策略。
-
+百度安全自主研发了HugeGraph可以与Spark GraphX进行链接,  支持Gremlin图查询语言,  https://hugegraph.github.io/hugegraph-doc/,   HugeGraph在百度安全内部的应用场景非常广泛，包括网址安全检测、设备关系图谱和数据安全治理
