@@ -1,0 +1,38 @@
+#water-fat image uploaded
+
+http://stnava.github.io/ANTs/
+
+
+fcn_vatsat/scripts/image3.py
+using simpleITK 
+
+----------------
+Jetson Xavier专攻自主机器，像机器人手臂、自动化设备与服务型机器人、无人机等，可广泛应用于工业生产线、仓储、物流、零售与农业等多种场景。同时，Jetson Xavier也适用于智慧城市应用程序和便携式医疗设备。
+
+机器人训练时候速度慢、训练危险、昂贵、特殊数据搜集不足的困境。
+
+next flink, with ros
+	物联网的数据量增长的速度将超过智能手机
+	城市是不断发展的，从规划到运维到预测
+
+
+
+EdgeX基于戴尔开创性的FUSE IoT中间件框架 Linux基金会旗下
+EdgeX California的主要新功能旨在提高安全性，基于Kong的新反向代理要求任何EdgeX微服务的外部客户端，在载入EdgeX API前先进行身分认证，这将有助于保护REST API通信并保护存储。
+新的机密存储设施基于HashiCorp的开源Vault，它允许您在EdgeX中安全地存储敏感数据（如用户名/密码凭据、证书和令牌）以执行加密，向企业发出HTTPS调用或将EdgeX安全地连接到云提供商等任务
+
+用Java语言开发的EdgeX容量高达267MB，如果加上启动容器则为519MB，而改用Go语言重写后只有42MB，即便加上启动容器也只有68MB。内存占用率也从原本的1302MB缩减到了27MB，启动时间从35秒缩短到了一秒以內。
+避免向Java支付授权费用 让官方可以指定树莓派3作为官方平台 、MQTT
+
+-------------
+
+ 
+#3dunet
+modality as filter/channel
+
+
+
+
+????
+keras@mxnet, cam?
+pip install mxnet-cu90
