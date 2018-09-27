@@ -36,3 +36,36 @@ modality as filter/channel
 ????
 keras@mxnet, cam?
 pip install mxnet-cu90
+
+
+-----------------------
+
+ Apache Beam for tfx,  jupyter nbextension 
+
+
+
+
+
+http://www.virtual-home.org/
+AI研习社
+Nervana发布强化学习库Coach
+http://coach.nervanasys.com
+
+
+tfx @p0cket
+https://tensorflow.google.cn/tfx/data_validation/get_started
+https://research.googleblog.com/2017/02/preprocessing-for-machine-learning-with.html
+https://medium.com/tensorflow/introducing-tensorflow-model-analysis-scaleable-sliced-and-full-pass-metrics-5cde7baf0b7b
+
+#install on tfc
+https://github.com/tensorflow/data-validation/blob/master/examples/chicago_taxi/chicago_taxi_tfdv.ipynb
+
+
+==================
+ 
+
+wget --no-check-certificate --content-disposition https://github.com/joyent/node/tarball/v0.7.1
+# --no-check-cerftificate was necessary for me to have wget not puke about https
+curl -LJO https://github.com/joyent/node/tarball/v0.7.1	
+
+$ curl -LOk https://github.com/ziyaddin/xampp/archive/master.zip
