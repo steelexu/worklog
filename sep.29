@@ -1,0 +1,42 @@
+brats_preprocess
+orgin original
+?truth.nii
+ants-n4 is too slow, single process (with nipype)
+
+
+Petastorm 使用 PyArrow 来读取 Parquet 文件。Tensorflow 和 Pytorch 是深度学习社区常用的框架。
+这些框架本身并不支持 Parquet 存储访问，因此我们构建了 Petastorm 来填补这一空白。
+Parquet便于进行大量连续读取（对 HDFS/S3 友好）支持快速访问单个列
+
+
+
+np.argmax(a)
+array([[0, 1, 2],
+ [3, 4, 5]])
+>>> np.argmax(a)
+5
+>>> np.argmax(a, axis=0)
+array([1, 1, 1])
+>>> np.argmax(a, axis=1)
+array([2, 2])
+
+
+
+#do the down-position of abdom
+
+#backup the code
+
+https://github.com/InsightSoftwareConsortium/SimpleITK-Notebooks/archive/master.zip
+
+从数据中学习，使用机器学习算法辅助设计，建立全自动的实验体系并检测，然后继续使用算法挖掘结果中的有价值数据——合成生物学、机器学习和自动化作为其三大技术优势，整合这个时代最强的学科，Zymergen 的潜力自然引人关注。
+
+
+label fusion
+ the selective and iterative method for performance level estimation (SIMPLE)
+
+
+ICLR-2018精品论文
+ Learning Representations,  metric learning
+
+ https://deepmind.com/blog/hippocampus-predictive-map/
+6/7/11 月难受潮湿
