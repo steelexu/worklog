@@ -1,0 +1,46 @@
+
+>apply model from tarolangner/fcn_vatsat
+
+
+all image slices were zero-padded to a size
+of [256, 256] and the noise in the background was masked out.
+       cropped
+
+
+The contrast of the signal images of the water-fat MRI was then adjusted for each transverse slice by
+clipping the brightest one percent of their respective histograms
+ and normalizing the remaining intensities to a float value range of [0, 1] for processing by the networks.
+
+
+sitk.WriteImage(volx, "/data/water_fat/5.vtk")
+
+dicomsort
+1898年9月28日，京菜市口 人山人海， 白菜帮子烂菜叶横飞
+pydicom
+dcm2niix
+
+apt install libglib2.0-0
+
+
+cv2
+you might also install pip install opencv_contrib-python as some module are missing in opencv
+pip install opencv-python==3.3.0.9
+May be the problem is with your python-opencv version. It's better to downgrade your version to 3.3.0.9 which does not include any GUI 
+
+!apt install libglib2.0-0
+-----
+
+https://arxiv.org/abs/1809.07691
+A Survey on Theoretical Advances of Community Detection in Networks
+
+
+
+每万亿分之一秒就能产生一束功率强大的激光束
+国内最好的类似设备每秒可产生十亿个光束，比西方的光束慢一千倍。
+2020 年，在全国安装另外 4 亿台摄像头。..
+
+
+https://www.huxiu.com/article/264231.html
+
+ICLR 2019提交截止，近1600篇论文已全部上线。其中，最多的是强化学习论文
+
