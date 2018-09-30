@@ -1,5 +1,7 @@
-as shiny:  Graphistry+opencpu,knitr
+as shiny:  Graphistry+opencpu
 
+&knitr
+https://github.com/REditorSupport/languageserver
 
 MENGA: A New Comprehensive Tool for the Integration of Neuroimaging Data and the Allen Human Brain Transcriptome Atlas
 Neo is a package for representing electrophysiology data in Python,
@@ -31,5 +33,16 @@ dl and slam???
 Deep Learning for Visual SLAM Workshop（链接http://visualslam.ai/
 
 SLAM好比一个好动的小孩儿，一切都是全新的，未经探索的，保持着一个好奇的心去了解世界。而深度学习好比是一个老人，通过经验来解决问题，但是不适合做大量的测量和尝试。
+
+本文转载自GitHub, 是作者收集的精选论文，跟踪SLAM前沿动态 (2017-2018)，包括纯视觉SLAM，三维重建，基础数学工具，导航路径规划，深度学习SLAM，激光与视觉融合等类别。
+https://github.com/YiChenCityU/Recent_SLAM_Research
+
+
+
+
+
+
+https://arxiv.org/abs/1710.10196
+Progressive Growing of GANs for Improved Quality, Stability, and Variation
 ======
 book ticket1!!!
