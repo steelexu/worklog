@@ -1,0 +1,32 @@
+isk:  mxnet as ps, 2-gpu
+
+
+
+www.inaturalist.org
+Tensorflow 目标检测 API R-fcn, ssd
+
+  条件随机场可以简单的理解为相似相邻，以 2D 图像举例：距离近的，差异小的 pixel 我们认为他们应该拥有相同的 label，
+最后我们最小化整个模型的 loss function
+但是利用帧间信息我们就可以把过去的 label“传播”到当前帧从而得到准确的结果。
+
+----osim-rl
+do the diff on core.py
+
+
+https://www.cs.cmu.edu/~katef/DeepRLControlCourse/lectures/lecture6_planninglearning.pdf
+python queue  in osim??  `from heapq import heappush, heappop`
+
+
+
+
+
+
+---
+https://www.coursera.org/learn/blockchain-foundations-and-use-cases?
+from consenSys
+
+to do>
+?https://docs.google.com/document/d/1_21dWhSnXXl0f1e8hjI8vc1neqhOySVY7MGV3GLBImw/edit
+
+
+graph: two weeks after sept.10
