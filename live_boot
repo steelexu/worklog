@@ -22,3 +22,13 @@ http://ubuntuhandbook.org/index.php/2016/07/2-best-chinese-pinyin-im-ubuntu-16-0
 - launch Language Support utility and select use Fcitx:
 - fcitx-configure:  uncheck “show current language”, add pinyin
 - in leafpad, choose fcitx
+
+
+
+======
+
+
+Unity WebGL构建目标的导出文件改为WebAssembly，即Wasm
+	重新启用SharedArrayBuffer，WebAssembly多线程支持或许是最受期待的功能
+ 构建工具链 emscripten https://github.com/kripken/emscripten
+ clang 可以直接指定 target 为 WebAssembly
