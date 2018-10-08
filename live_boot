@@ -9,3 +9,8 @@ deb http://mirrors.163.com/ubuntu/ xenial-proposed main restricted universe mult
 deb http://mirrors.163.com/ubuntu/ xenial-backports main restricted universe multiverse
 
 chmod -R 777 /var/cache/app-info/xapian/default
+
+ /etc/apt/sources.list
+
+apt install lxsession lxde-core
+adduser grassss
