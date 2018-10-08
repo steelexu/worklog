@@ -14,3 +14,11 @@ chmod -R 777 /var/cache/app-info/xapian/default
 
 apt install lxsession lxde-core
 adduser grassss
+
+
+
+http://ubuntuhandbook.org/index.php/2016/07/2-best-chinese-pinyin-im-ubuntu-16-04/
+- apt installl fcitx-pinyin
+- launch Language Support utility and select use Fcitx:
+- fcitx-configure:  uncheck “show current language”, add pinyin
+- in leafpad, choose fcitx
