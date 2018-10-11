@@ -1,0 +1,96 @@
+
+---
+
+%server shut down
+	xf4j-brats code
+use the validation data to train??
+	next gan, crfRNN
+
+
+brats:
+	?validation data
+https://www.cbica.upenn.edu/sbia/Spyridon.Bakas/MICCAI_BraTS/2018/MICCAI_BraTS_2018_Data_Validation.zip
+https://www.cbica.upenn.edu/sbia/Spyridon.Bakas/MICCAI_BraTS/2018/MICCAI_BraTS_2018_Data_Training.zip
+
+
+
+iclr2018
+-->relational graph attention network
+-->recurrent experience replay  in distributed reinforcement learning
+-->big-loop recurrence within the hippocampal system supports integration of information across episodes
+
+miccia 2018 workshop
+
+
+
+
+-------
+
+reinforc and slam
+
+mapping finger motion/pose   to robot @aR
+	by GAN
+	
+?深蓝学院 
+
+
+ 短视频实时分类
+对短视频实时分类，将运行时间作为重要指标参与评估，促进视频分类算法在工业界的应用
+https://challenger.ai/competition/mlsv2018
+
+
+----realtime video-tf
+
+https://blog.sicara.com/tensorflow-gpu-opencv-jupyter-docker-10705b6cd1d?gi=f2b715b4ed88
+
+> sudo docker run --rm --name tf1 -p 8888:8888 -p 6006:6006 redaboumahdi/image_processing:cpu jupyter notebook --allow-root
+> xhost +local:root
+
+Then we will bash to our Docker image using this command:
+
+> sudo docker run -p 8888:8888 --device /dev/video0 --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" -it image_processing bash
+
+We will need to clone the github repository, which is a real-time object detector:
+
+> git clone https://github.com/datitran/object_detector_app.git && cd object_detector_app/
+
+Finally, you can launch the python code:
+
+> python object_detection_app.py
+
+The code that we are using uses OpenCV.
+
+
+===========
+https://help.github.com/articles/about-organizations/
+
+
+
+https://github.com/ppwwyyxx/wechat-dump
+
+strata: tigerGraph,  memgraph
+
+https://github.com/alibaba/Alink
+
+毫无疑问腾讯在此次架构调整中并没有完成，他说的中台是“数据中台”。
+在国内叫“中台”，这一架构的设计在硅谷中型公司中叫做增长部门，比如Linkedin就设置有这一部门——以增长为核心目标，以数据为依据，为各个业务部门提供策略支持。
+
+以Linkedin为例，这一增长部门直接向CEO汇报，而其它业务部门在向CEO汇报的同时，也需要向增长部门汇报，他们既是平级关系，在策略上又必须聆听这一部门的指挥。这种架构设置下，如果不是企业文化尤其是最高层的支持，是不会真正带来效果，而在这种架构之下，必然要求部门之间的打通。
+
+
+
+是把你的增长模式从资本积累转向技术创新，
+
+
+
+
+
+
+
+
+----
+    10月5日开始台风“康妮”移动路径不确定性增大，可能是北上转向，受其外围影响，5-7日上海有阵雨和风力增大过程。也可能继续西进登陆我国浙闽，那么除了大风以外，给本市带来的降水也更为明显。
+
+http://www.acfun.cn/v/ac4604595
+pbs2018
+

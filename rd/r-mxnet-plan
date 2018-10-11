@@ -1,0 +1,228 @@
+igraph
+	$bayesian-mc
+			Causality
+
+
+
+========================------------------
+#with arrow
+Feather（快速读写磁盘数据）
+Broom （整理模型）
+--------------graphics
+#used as shiny!  opencpu
+	med-imaging
+	spatial
+
+crf
+
+spmr and resting
+
+
+antsR,fslR
+---------from rattle to shiny
+# wrapping R as service,  model_serving
+                    opencpu, plumber, jug/httpuv
+
+lightweight deploy (Reproducible)
+igraph
+
+?w-socket  knitr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://arrow.apache.org/powered_by/
+apache arrow matlab
+	https://github.com/apache/arrow/pull/2172
+		https://github.com/mathworks/arrow#
+
+http://wesmckinney.com/blog/feather-and-apache-arrow/
+	https://news.ycombinator.com/item?id=11384577
+
+GOAI: Open GPU-Accelerated Analytics Initiative for Arrow-powered analytics across GPU tools and vendors
+	. The Graphistry team uses Arrow in its NodeJS GPU backend
+Fletcher: Fletcher is an FPGA acceleration framework that can convert an Arrow schema into an easy-to-use hardware interface.
+
+
+==============================sequence=======================
+
+ 短视频实时分类
+对短视频实时分类，将运行时间作为重要指标参与评估，促进视频分类算法在工业界的应用
+https://challenger.ai/competition/mlsv2018
+
+
+action recognition 
+
+* rnn and dna? attention
+	https://github.com/kjw0612/awesome-rnn#robotics
+			THUMOS : Large-scale action recognition dataset
+		https://github.com/tensorflow/hub/blob/master/examples/colab/action_recognition_with_tf_hub.ipynb
+
+
+
+==================================================
+$explain model
+==================================================
+
+%2. pgm with bayesian inference, gR
+deep bayesian
+	comp. psychiatry
++k-graph
+pyro
+
+
+ --------------model analysis-----@tf--------------
+ 
+
+edward
+https://tensorflow.google.cn/probability/
+
+
+transfer learning. 
+hub,  https://tensorflow.google.cn/hub/
+
+
+https:/github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/interactive_inference
+
+https://github.com/xup6fup/MxNetR-Class-Activation-Mapping
+
+
+
+
+
+rbm dbn vae
+---------------------
+TFDV（数据验证）是谷歌每天用来分析和验证数 PB 数据的技术。鉴于此前它在数据纠错上一直有不错的表现，
+	abnormal, feature-engineer
+
+
+
+名为 What-If，具体有以下几种功能（via.机器人之家）：
+对推断结果可视化；
+
+编辑数据点，看模型会有怎样的反应；
+
+研究单一特征对模型的影响；
+研究反事实样本；
+
+用相似度安排样本；
+
+查看混淆矩阵和 ROC 曲线；
+
+测试算法公平性。
+
+
+
+
+
+keras gui?  json
+===================================================
+===================mxnet +R ========================
+
+
+
+https://github.com/xup6fup/MxNetR-Class-Activation-Mapping
+
+
+ 'MKL' or 'TensorFlow with MKL'
+
+--------------------------------------------------------------
+ xup6fup/MxNetR-YOLO
+YOLO: You only look once real-time object detector 
+
+
+ CIFAR-10 
+mxnet + keras
+	github.com/awslabs/keras-apache-mxnet
+
+FastAI 能吸引课程之外的用户吗？它有大量的学生，使用 API 比 Keras 更容易。
+
+
+
+
+
+
+
+
+mxnet是Parameter Server架构, server和worker是两个最主要的进程，另外还有个负责集群管理的scheduler进程。server负责分布式存储模型参数，worker负责计算，且worker之间不能直接通信，只能通过server互相影响，一般来说，mxnet常用来做数据并行，每个GPU设备上都训练完整的DL模型。TensorFlow主要由client,server,worker三种进程，它虽然也可以实现parameter server的功能，但它计算节点的通信方式并不是只能靠server来完成，TensorFlow的woker是可以互相通信的，可以根据op的依赖关系主动收发数据。
+
+作者：知乎用户
+链接：https://zhuanlan.zhihu.com/p/28003118
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+在BIOS里关闭
+IOMMU，然后就正常了
+Mxnet使用多GPU，效率变的更低？
+上述机制保证了对于较深的网络能够达到了很好的线性加速比，不过对于浅层网络，比如只有两层lstm的 encoder decoder这种方法的并行效果欠佳。
+
+https://github.com/junqiangchen/MutiltGPU_Unet2d/blob/master/MutiltGPU_Unet2d/MutiltGPU_Unet2d_ceil_train.py
+
+
+
+https://mxnet.apache.org/architecture/note_memory.html
+
+https://github.com/REditorSupport/languageserver
+
+跨卡同步 Batch Normalization
+
+nnvm tvm
+分布式训练
+
+----------
+https://medium.com/ravenprotocol/hello-world-raven-protocol-f749bf5fc8cf
+为什么你需要Raven：全球首个真正分布式深度学习训练协议
+
+AI 社区中的许多成员，如 Singularity.net、Ocean Protocol、OpenMind、Deep Brain Chain 等等，都建立起了资源共享平台，用于在安全的区块链内共享计算和数据资源，进而助力机器学习 / 深度学习算法向商业模型的转变
+
+
+2）人脸识别中的关键指标：
+
+1000张样本图片里，共600张正样本。相似度为0.9的图片一共100张，其中正样本为99张。虽然0.9阈值的正确率很高，为99/100；但是0.9阈值正确输出的数量确很少，只有99/600。这样很容易发生漏识的情况。
+
+
+
+1、精确率（precision）：识别为正确的样本数/识别出来的样本数=99/100
+
+2、召回率（recall）：识别为正确的样本数/所有样本中正确的数=99/600
+
+
+
+
+cloth image--malong
+ ai time?
+
+深度长文丨一文读懂人脸识别技术市场
+AI报道
+
+
+
+
+------------
+
+keras>
+https://github.com/transcranial/keras-js
+https://github.com/keplr-io/hera
+
+
+https://github.com/Wrosinski/keraspipelines
+
+
+===========
+ Packages implementing deep learning flavours of neural networks include deepnet (feed-forward neural network, restricted Boltzmann machine, deep belief network, stacked autoencoders),
+
+https://cloud.r-project.org/web/packages/rnn/index.html
+ RcppDL (denoising autoencoder, stacked denoising autoencoder, restricted Boltzmann machine, deep belief network)

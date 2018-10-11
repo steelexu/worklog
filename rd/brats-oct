@@ -1,0 +1,173 @@
+vnet and crf-rnn
+
+ The ground truth of the validation data will not be provided to the participants, but multiple submissions to the online evaluation platform (CBICA's IPP) will be allowed.
+
+
+
+
+
+
+
+
+
+
+
+
+by pytorch, code not available
+adaptation of ESPNet will be available at 
+https://github.com/nknuecht/GBMNet
+
+https://github.com/weningerleon/BraTS2018
+
+---
+
+
+
+
+https://github.com/alalbiol/brain segmentation (2018)
+
+keras
+Finally, all the code is publicly available at: 
+https://github.com/marianocabezas/challenges2018
+
+
+#https://github.com/xf4j/brats18
+
+
+
+
+
+
+
+
+
+
+
+
+#Data augmentation was done with our own in-house framework which is
+publically available at https://github.com/MIC-DKFZ/batchgenerators.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.1.1. Segmentor Network In our proposed architecture, the segmentor is a
+3D fully convolutional encoder-decoder network that generates a label for each
+voxel. 
+
+@keras
+#https://github.com/HPI-DeepLearning/VoxelGAN
+SV-GAN
+
+Xue et al. [27] presented a cGAN, called SegAN, for medical image segmenta-
+tion using a multi-scale loss function for the generative network. SegAN utilizes
+UNet as the generator and FCN as the discriminator.
+
+by adding the generator network class-conditional.
+
+
+
+
+
+
+
+We implemented our networks in TensorFlow. The code for the V-Net archi-
+tecture can be found at
+
+ https://github.com/MiguelMonteiro/VNet-Tensorflow
+# and the code for the CRF as RNN layer can be found at 
+
+https://github.com/MiguelMonteiro/CRFasRNNLayer .
+
+ 
+
+
+<just predict the survive, --->smhc
+	utilize https://github.com/taigw/brats17
+https://github.com/Radiomics/pyradiomics
+
+
+=====---Nasopharynx
+Nasopharynx cancer segment radio-therapy ct mri
+
+
+
+  深度学习大讲堂
+============================
+https://www.cbica.upenn.edu/sbia/Spyridon.Bakas/MICCAI_BraTS/2018/MICCAI_BraTS_2018_Data_Validation.zip
+
+ 
+
+
+该项目将建立一个全面的血液测试，微软欲用 AI通过解码免疫系统中的信息
++深度学习
+
+------------------
+Classical approaches based on Multi Atlas segmentation, probabilistic graphical
+models
+但是CRF as RNN比较耗费显存，尤其是在类别数比较大的时候
+
+Multi-Planar
+m-view/scale
+cascaded
+
+
+to solve the class imbalance problem ---patches
+transfer learning?
+
+@Sirona,
+To address this issue, we use CycleGAN [18] to
+do the domain adaptation from the generated synthetic data to the real BRATS
+data.
+
+
+DeepMedic use crf?
+
+
+
+前端使用FCN进行特征粗提取，后端使用CRF/MRF优化前端的输出，(radom field)
+
+https://zhuanlan.zhihu.com/p/22308032
+
+https://zhuanlan.zhihu.com/p/33397147
+
+Conditional random filed 是 discriminative approach, 用conditional probability P(y|x), 不关心x是怎么generate的；
+HMM是generative approach，用joint distribution P(x,y), 需要考虑x是怎么generate的。
+-----------vnet
+https://promise12.grand-challenge.org/
+论文贡献：第一，3D图像分割end2ent模型（基于3D卷积），用于MRI前列腺容积医学图像分割。第二，新的目标函数，基于Dice coefficient。第三，数据扩充方法：random non-linear transformations和histogram matching。第四，加入残差学习提升收敛。
+
+MRI技术问题应用解决，在MRI前列腺问题上：第一，不同scans之间较大的外观变异(灰度分布的变换和改变)。第二，主磁场不均匀性引起的伪影和畸变。
+
+
+Nassir Navab等人发表在IEEE 3D Vison上的论文V-Net，是U-Net[1]的3D版本，其实U-Net作者自己也发表了3D U-Net[2]。
+
+，在U-net的基础上加上了残差结构，并且把2x2 max-pooling替换成了2x2 conv.
+---------------------
+
+本文来自 JimmyChoo 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/yunxinan/article/details/81178287?utm_source=copy 
+
+
+
+
+
+
+
+
+
+
+-------- 【泡泡机器人原创专栏】Deep Learning 在 SLAM 中的应用之语义建图 
+
+da-rnn 1703.03098
+
+Condition Random Field，来 refne 最后的结果
+        条件随机场可以简单的理解为相似相邻，以 2D 图像举例：距离近的，差异小的 pixel 我们认为他们应该拥有相同的 label，所以对于距离近的，差异小的 pixel，如果他们的 label 相同，我们给予它一个小的 loss，如果 label 不同，我们给予他们一个大的 loss，最后我们最小化整个模型的 loss function，得到所有 pixel 的 label。
