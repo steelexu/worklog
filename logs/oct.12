@@ -1,0 +1,52 @@
+!! try vnet model for vat-seg
+
+
+#todo
+set PYTHONPATH, DO WITH vatsatseg
+	python vatsatseg.py --help
+https://github.com/maxdiefenbach/vatsatseg
+ 
+???
+- try ants  on 100 , average, reg..
+- segment out  the sat first
+- post process, morphology
+
+ 
+----------------------------------
+cnn batch memory
+!!batch_size  用mxnet。。
+	?bath accum?
+
+segfault
+https://github.com/ellisdg/3DUnetCNN/issues/58
+
+unet3d/generator.py
+def get_validation_split
+
+
+?recompile the HDF5 library to be thread-safe (see https://support.hdfgroup.org/HDF5/faq/threadsafe.html).
+
+
+
+
+pyradiomics and feature from unet
+------------------
+
+对于 TensorFlow 1.10.0 版本，conda 包支持可用的 CUDA 8.0、9.0 和 9.2 库。而 pip 包仅支持 CUDA 9.0 库。在不支持 CUDA 库最新版本的系统上运行时
+
+
+使用 pip 安装 TensorFlow 时，GPU 支持所需的 CUDA 和 CuDNN 库必须单独手动安装，增加了大量负担。而使用 conda 安装 GPU 加速版本的 TensorFlow 时，只需使用命令 conda install tensorflow-gpu，这些库就会自动安装成功，且
+
+https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/
+
+conda TensorFlow cpu 包使用面向深度神经网络的英特尔数学核心函数库（Intel MKL-DNN）
+
+天池实验室已经正式开放免费GPU资源啦！
+只要填写一个资源申请表，
+
+
+
+
+
+
+https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
