@@ -1,0 +1,149 @@
+keras>
+
+js editor
+	https://github.com/neurals-ro/keras-model-editor
+#compile
+
+	
+
+regularization on the activation, kernal, bias
+dropout
+
+
+
+pool no small  slide? has stride
+
+# Python generator
+ImageDataGenerator
+
+activation non-linear
+
+
+
+#detection yolo
+
+https://github.com/qqwweee/keras-yolo3
+https://github.com/allanzelener/YAD2K
+keras yolo/import darknet model
+	to detect the car!!
+https://github.com/Microsoft/AutonomousDrivingCookbook
+
+https://github.com/fchollet/deep-learning-models
+	Keras code and weights files for popular deep learning models. 
+
+#inference by dl4j
+
+
+
+#metrics keras  sparse-top5
+#vis
+
+https://github.com/eriklindernoren/Keras-GAN
+# https://medium.com/merantix/picasso-a-free-open-source-visualizer-for-cnns-d8ed3a35cfc5
+	https://github.com/keras-team/keras/blob/master/examples/conv_filter_visualization.py
+
+Hera: in-browser metrics dashboard for Keras models  https://github.com/keplr-io/hera
+
+
+
+
+------------------------------
+
+ maxpumperla/hyperas
+	Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization 
+
+
+https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction
+https://github.com/farizrahman4u/seq2seq
+# https://github.com/philipperemy/keras-attention-mechanism
+
+-------------
+https://github.com/fchollet/keras-resources
+
+Fashion-MNIST-using-FfDL
+
+
+
+https://github.com/SullyChen/Acai
+A GUI for autogenerating Keras model code from complex graphs. 
+
+
+
+ yandexdataschool/Practical_RL
+A course in reinforcement learning in the wild 
+
+
+
+ jocicmarko/ultrasound-nerve-segmentation
+Deep Learning Tutorial for Kaggle Ultrasound Nerve Segmentation competition, using Keras 
+
+https://www.youtube.com/watch?v=RznKVRTFkBY&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL
+Keras video tutorials playlist from Deeplizard
+fast.ai?
+
+
+https://github.com/coreylynch/async-rl
+Kerlym: reinforcement learning with Keras and OpenAI Gym
+Qlearning4K: reinforcement learning add-on for Keras
+
+---------------cnn
+
+https://github.com/kailashahirwar/cheatsheets-ai
+https://github.com/mbadry1/DeepLearning.ai-Summary/tree/master/4-%20Convolutional%20Neural%20Networks
+
+
+
+local-connected--weights are unshared, that is, a different set of filters is applied at each different patch of the input.
+separablecnn?
+	http://vincent.vanhoucke.com/publications/vanhoucke-iclr14.pdf
+		kernel conv on each channel, no adding  可以看做，深度卷积tf.nn.depthwise_conv2d的扩展 +pointwise，https://blog.csdn.net/mao_xiao_feng/article/details/78003476
+		The in_channels * channel_multiplier intermediate channels get concatenated together, and mapped to out_channels using a 1x1 convolution.
+		Separable Convolution将传统的卷积运算用两步卷积运算代替：Depthwise convolution与Pointwise convolution 1x1
+
+https://www.zhihu.com/question/51767944
+earlystop
+checkpoint
+
+
+ 问答 | 在卷积神经网络中，卷积核到底是几层的？
+AI研习社 AI研习社 1周前 
+深度卷积神经网络演化历史及结构改进脉络 
+
+
+
+
+
+---------------
+
+
+2.采用更小的连续3x3卷积核来模拟更大尺寸的卷积核，例如2层连续的3x3卷积层可以达到一层5x5卷积层的感受野，但是所需的参数量会更少，两个3x3卷积核有18个参数（不考虑偏置项），而一个5x5卷积核有25个参数。后续的残差网络等都延续了这一特点。
+
+
+
+
+---b-clone
+[behavior clone]
+https://www.leiphone.com/news/201706/RuoKaDSTmd1dClUV.html
+https://github.com/feixia586/zhihu_material/blob/master/car_end2end/model.py
+
+
+
+https://zhuanlan.zhihu.com/p/27439184
+
+
+
+https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983558_beta-simulator-linux/beta-simulator-linux.zip
+https://transfer.sh/GUcjW/beta-simulator-linux.zip
+
+CARLA自动驾驶模拟器
+
+
+
+============
+https://eu.udacity.com/course/deep-learning--ud730
+http://cs231n.github.io/
+https://colah.github.io/
+
+
+
+*geometrideeplearning
