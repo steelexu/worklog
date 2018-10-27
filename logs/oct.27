@@ -1,0 +1,50 @@
+------------
+?nbextensions.??
+ %debug
+flow@jupyterlab
+
+https://jaypjohnson.com/2016-08-01-building-data-pipelines-with-jupyter-and-docker.html
+
+>integrating different flow, scikit-learn/orange and nipype
+	file or redis
+
+?or submit to Celery
+By using nbconvert, you can calculate an entire notebook non-interactively, saving it in place or to a variety of other formats.  https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
+	ipython nbconvert --to html pipelinedashboard.ipynb
+with dash to reporting
+ 
+https://nteract.io
+nteract utilizes Electron, a framework for developing native, cross-platform desktop applications with HTML, CSS, and JavaScript. 
+In addition to features that enable real-time collaboration, nteract will also provide the ability to connect to remote kernels
+
+https://pachyderm.readthedocs.io/en/latest/getting_started/beginner_tutorial.html
+https://medium.com/pachyderm-data/jupyter-pachyderm-part-1-exploring-and-understanding-historical-analyses-2a37e56c6578
+
+-------------do--
+
+https://ndres.me/post/best-jupyter-notebook-extensions/
+https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
+
+https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
+https://github.com/jupyterlab/jupyterlab
+	with redis
+
+# pype docker with nitrc
+	no conda within yrahal/udacity-robond/
+
+Installing collected packages: jupyterlab-server, jupyterlab
+
+install traefik:xenial
+
+install jupyter-lab with pytorch/lua docker 
+----
+
+nodered service mesh, redis
+	generate py code?
+
+https://github.com/namgk/dnr-editor
+
+
+@isk: processing,scijava, kotlin ,minecraft
+	nodered? vpy
+* c++ kernel--->webassembly
