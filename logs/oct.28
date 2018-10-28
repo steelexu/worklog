@@ -1,0 +1,48 @@
+https://github.com/nsavinov/gym-vizdoom
+ pip3 install vizdoom
+
+
+https://github.com/ankurhanda/sim2realAI
+FlightGoggles
+A framework for photorealistic hardware-in-the-loop agile flight simulation using Unity3D and ROS.
+
+
+
+
+
+@ sim-world
+>torcs/carla
+
+
+
+
+，BabyAI 给出了一种称为“MiniGrid”的二维模拟网格环境。在 MiniGrid 中，环境表示为不同颜色的各种实体，包括智能体、球、箱子、门和钥匙等，如图一所示。智能体可向对象执行拾起（PickUp）、放下（Drop）和移动（Move）等操作，房门（door）可使用与其颜色相匹配的钥匙（Key）开锁。在每一步，智能体会接收到其可视区域的一个表示，以及一条文本字符串形式的 Baby 语言指令。
+https://github.com/StanfordVL/GibsonEnv
+suncg and house
+http://virtual-home.org/
+ A Knowledge Base of household tasks, containing instructions of how certain common tasks should be performed
+============
+Conference on Robot Learning (CoRL)...
+
+CMA-ES stands for covariance matrix adaptation evolution strategy. for Robotics
+https://en.wikipedia.org/wiki/CMA-ES
+
+
+https://katefvision.github.io/
+RL 在自动驾驶策略学习方法、路线规划等方面非常有用
+
+
+
+强化学习的智能体和环境进行交互并基于所采取的行动接收反馈的场景和医学里学习治疗策略有相似之处。事实上，强化学习在医疗保健中的很多应用都和找到最佳的治疗策略有关。最近一些论文引用了强化学习在医疗设备、药物剂量和两阶段临床试验中的应用。
+
+逐步学习：先学习较为简单的情形，再学习更复杂的情形，即curriculum learning。
+
+
+"Reinforced Co-Training." arXiv preprint arXiv:1804.06035 (2018).
+reinforced co-training
+
+
+
+curiosity and IRL
+
+VIN），即一个用于近似价值迭代算法的完全可微分的 CNN 规划模块，它可用于学习规划，例如强化学习中的策略。
