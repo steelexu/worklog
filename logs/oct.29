@@ -1,0 +1,129 @@
+#next
+pyro and rl? bayesian
+
+Project Malmo (https://github.com/Microsoft/malmo), from Microsoft, is an AI research
+and experimentation platform built on top of Minecraft.
+
+reward or label
+
+
+---
+
+你知道我知道你在想些什么，读《Learning with Opponent-Learning Awareness》
+就是考虑对手的策略也会改变，然后对策略梯度做了修改
+Manuela Veloso: Mobile colaborative robots--RoboCUP https://www.cs.cmu.edu/~mmv/
+
+
+HIRO是HIerarchical Reinforcement learning with Off-policy correction的缩写
+https://github.com/imatge-upc/detection-2016-nipsws
+Hierarchical Object Detection 
+
+层次强化学习、记忆与预测模型
+
+
+--------generalization
+vin
+（reactive policy）学习的计算不同于规划（planning）
+有多少个动作就会对应多少张特征图。那么卷积层当中的卷积核的参数可以理解为状态的转移概率
+产生一个attention机制，集中在可能的转移当中
+https://zhuanlan.zhihu.com/p/24274568
+。函数f_{R} 为一个奖励函数映射：当输入的状态图，计算出对应的奖励值；例如，在接近于目标附近的状态得到的奖励值就比较高，而接近于障碍物的状态得到的奖励值就越低；f_{P}  是一个状态转移的函数，是在状态下的确定性的转移动作。
+
+https://github.com/kentsommer/pytorch-value-iteration-networks
+
+https://github.com/zhongwen/predictron
+# predictron, Silver et al. (2017)
+ 
+#dueling network : using cnn/lstm
+
+
+learning-to-learn
+https://zhuanlan.zhihu.com/p/37738791
+这个导航的任务， 是让行为单元走迷宫，这个迷宫的某个角落藏着宝物， 然而隔一段事件宝物的位置就会被移动到另一个位置， 而更加残酷的是， 每次行为者发现宝物后就会被转移到另一个随机的地点。 这个任务里， 行为者的输入只有它眼前的迷宫景物和它本身的行动速度，以及是否得到了奖励
+
+Li 和 Malik 在 2017 年建议通过将特定的优化算法表示为策略，将收敛速度表示为奖励，以引导策略搜索
+
+
+sim2real*  by lstm
+在模拟环境中队机械臂的阻尼，质量，物体的阻尼，质量，高度观测噪声，行动噪声等等进行参数随机化
+
+------------irl
+IRL中的轨迹对应着GAN中的样本，IRL中的策略对应着GAN中的生成器（生成轨迹和样本），而IRL收益函数则对应了GAN中的判别器。
+
+
+首先，它使用一种混合奖励，将任务奖励与基于生成式对抗模仿学习的模仿奖励相结合。这有助于探索，同时仍然使得最终的控制器能够在任务上优于人类演示者。其次，它使用演示轨迹来构建一个状态课程（a curriculum of states），以便在训练期间对事件进行初始化。这使得智能体能够在早期的训练阶段了解任务的后期阶段，从而有助于解决长期任务。https://arxiv.org/pdf/1802.09564.pdf
+
+伯克利提出DeepMimic:使用强化学习练就18般武艺
+虚拟到现实(Virtual to Real)的翻译网络,将虚拟驾驶模拟器中生成的虚拟场景翻译成真实场...
+
+
+引导代价学习 (guided cost learning) 算法。需要给定一些人工的示范，然后算法从一个随机的策略\pi 开始，通过运行策略\pi去生成随机样本，然后使用重要性抽样和人工示范的方式来更新收益函数，根据收益函数稍微更新一下分布，然后下一阶段的分布更好。最后，我们得到了最终的类似于专家的收益函数和对应的策略。事实上，这个文章中使用了基于模型的算法中的GPS算法来做策略更新，
+
+
+#i2a
+https://arxiv.org/abs/1707.06203
+https://github.com/zamlz/dlcampjeju2018-I2A-cube
+目前的精神想法对未来做计划和预测，但我们知道，我们的精神模型可能不完全准确，尤其是当我们来到一个陌生环境中时。在这种情况下，我们就会进行试错法，就像无模型方法一样，但同时我们还会利用这一段新体验对内在精神环境进行更新。
+towardsdatascience.com/advanced-reinforcement-learning-6d769f529eb3
+
+https://jizhi.im/blog/post/ai-has-imagination
+
+Learning model-based planning from scratch
+https://arxiv.org/abs/1707.06170
+
+
+##FBRRL
+学习从已知的目标状态中想象出反向步骤 以从已知的的目标状态开始进行反向探索，是学习行动和值
+https://arxiv.org/pdf/1803.10227.pdf
+=============
+
+#arm-manip
+https://bair.berkeley.edu/blog/2018/08/31/dexterous-manip/
+https://arxiv.org/pdf/1802.09564.pdf 斯坦福联合DeepMind提出将「强化学习和模仿学习」相结合，可实现多样化机器人操作技能的学习
+
+
+
+
+
+
+
+
+
+
+
+---------sim_house  +merlin?
+
+Mirowski, Piotr, et al. "Learning to navigate in complex environments." arXiv preprint arXiv:1611.03673 (2016)
+导航领域的牛文， 介绍了在RNN（LSTM）下的深度强化学习里如何进一步加入监督学习， 获得性能突破
+learn the depth and loop
+
+deepmind Jaderberget al.(2017) 提出了无监督的强化辅助学习（UNREAL
+UNREAL is composed of RNN-LSTM base agent, pixel control, reward prediction, and value function replay. The base agent is trained on-policy with A3C
+The auxiliary policies use the base CNN and LSTM,together with a deconvolutional network, to maximize changes in pixel intensity of different regions of the input image
+Reinforcement learning with unsupervised auxiliary tasks (Jaderberg et al., 2017),
+https://github.com/miyosuda/unreal
+
+
+
+UnrealCV+caffe
+https://github.com/AgileDrones/FlightGoggles
+	GPU with >=1.7GB of VRAM 
+https://developer.nvidia.com/flex  in unity plugin
+https://github.com/clic-lab/chalet in unity
+
+
+
+
+
+Emma Brunskill, CS234: Reinforcement Learning, http://web.stanford.edu/class/cs234/
+Pieter Abbeel, Advanced Robotics, Fall 2015, https://people.eecs.berkeley.edu/ pabbeel/cs287-fa15
+
+• Abdeslam Boularias, Robot Learning Seminar, http://www.abdeslam.net/robotlearningseminar
+
+和Tap合作的商家都会在门口贴上蓝色的Tap标志，并且标明他们能提供什么样的饮品，例如纯净水、苏打水、调味饮料以及是否免费。
+其目的是让人们能找到干净的可饮用水源，包括餐厅、便利店、公共喷泉等，这样人们就能随时补充自己的水杯，就不用再去买瓶装水了。
+
+
+
+在国内一二线城市，随着小户型住宅越来越流行，近年来也出现了这种个人仓储租赁服务，比如“迷你考拉仓”和“Store-friendly”等，均是参考了国外的自助式仓储行业模式，但是和美国市场相比，国内的自助式仓储行业还有很长的一段路要走。
+http://www.sohu.com/a/271869876_476872?_f=index_chan30news_6
