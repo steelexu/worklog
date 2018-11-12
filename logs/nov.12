@@ -64,6 +64,10 @@ mattermost app
 ================ cv
 推理阶段，一台 GPU 分割 1 分钟的视频，大约需要数分钟 最终系统同时使用了 多台 GPU，处理一段 90 分钟的视频大概需要 40 分钟。
 我们自己挑了数万张典型场景的图像，标注团队前后花了三周时间 
+利用「腐蚀」和「膨胀」等图像形态学处理算法对分割模块输出的前景区域进行精细的剪裁
+
+seg morphorlogy on vat-sat
 
 
-
+https://arxiv.org/abs/1809.03972
+3D Inception-based CNN with sMRI and MD-DTI data fusion for Alzheimer's Disease diagnostics
