@@ -1,0 +1,73 @@
+more CV>https://zhuanlan.zhihu.com/lunzhi
+
+
+medium.com/owkin/a-machine-learning-survival-kit-for-doctors-97982d69a375
+用机器学习预测大脑年龄
+http://www.sohu.com/a/237480672_100177858
+http://www.jintiankansha.me/t/YAbQT9AnDZ
+? its colab 
+
+
+智东西med
+https://www.jiemian.com/article/2048569.html
+
+chanllenger.ai
+kaggle rsna
+http://dreamchallenges.org
+	on Cancer Genetics ,Malaria, Phamacology ,Single Cell
+
+As a research community, machine learning practitioners are in line with the open science mindset: they boycott classic peer reviewed journals and prefer open conferences such as NIPS, ICML or ICLR, 
+they publicly publish their work on arxiv, comment it on reddit, and often share their code on GitHub.
+
+
+
+
+mv code to git
+try https://github.com/maxdiefenbach/vatsatseg
+
+ganimation http://zhuanlan.zhihu.com/p/41029562
+----------------------
+Uber 推出了 Michelangelo、Pyro.ai 和 Horovod 等技术 
+pyml 以匹配 Apache Spark 管道的约束。
+微软开源MMLSpark,  CNTK、LightGBM 和 Spark 统一,  LIME 提供了一种”解释“方式，这种方式可以在不参考任何模型函数的情况下来解释任何模型的预测结果。更具体的说，LIME 通过一个抽样过程构造了一个局部线性近似的算法，从而解释了黑盒子函数
+https://blogs.technet.microsoft.com/machinelearning/2018/10/03/deep-learning-without-labels/
+
+
+
+spark
+Hydrogen@arrow，其核心模块 Gang scheduling 用来解决 Spark 与 ML frameworks 之间兼容性问题。使用 barrier API 来手动对 Job 切分 stage，并告诉 Scheduler 接下来的 Tasks 需要一起调度，如果某 Task 失败，则一组 Tasks 被一起重试，也就是会议中提到的所有的 Taks All or nothing，
+Databricks 更进一步推出了 MLFlow（https://mlflow.org/）。 通过 Hydrogen 项目,  Unifying State-of-the-art AI and Big Data in Apache Spark,   Hydrogen 项目基于 Apache Arrow 构建。
+
+
+https://github.com/IntelAI/mlt
+ 
+command-line  node almost same as docker/kube app
+https://github.com/kubeflow/pipelines/wiki
+
+
+
+
+
+
+
+
+up pipe
+
+
+相关性≠因果：概率图模型和do-calculus
+http://zhuanlan.zhihu.com/p/48054578
+==============
+groundai
+
+mattermost app
+
+================ cv
+推理阶段，一台 GPU 分割 1 分钟的视频，大约需要数分钟 最终系统同时使用了 多台 GPU，处理一段 90 分钟的视频大概需要 40 分钟。
+我们自己挑了数万张典型场景的图像，标注团队前后花了三周时间 
+利用「腐蚀」和「膨胀」等图像形态学处理算法对分割模块输出的前景区域进行精细的剪裁
+
+seg morphorlogy on vat-sat
+
+
+https://arxiv.org/abs/1809.03972
+3D Inception-based CNN with sMRI and MD-DTI data fusion for Alzheimer's Disease diagnostics

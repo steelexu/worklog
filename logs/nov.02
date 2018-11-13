@@ -1,0 +1,39 @@
+https://github.com/ellisdg/3DUnetCNN/issues/58
+
+https://github.com/keras-team/keras/issues/8225
+workers=0 to fit_generator
+call fit_generator(..., use_multiprocessing=True)
+well,I found when I use pytables instead of tables, the training could go on without errors  conda install pytables.
+
+Both train and validation generators read from the same HDF5 file 
+read_hdf is not thread-safe, even for reading
+
+?why load data first into gpu
+https://stackoverflow.com/questions/37596333/tensorflow-store-training-data-on-gpu-memory
+https://www.tensorflow.org/performance/performance_guide
+
+tsne? add tensorboard callback to keras
+
+Deep embedding https://arxiv.org/pdf/1807.11228.pdf
+
+https://github.com/IntelAI/mlt/tree/master/examples/distributed_unet
+--------
+
+jupyterlab redis
+traefik 
+
+===============
+
+
+Medical Computer Vision and Bayesian and Graphical Models for Biomedical Imaging : MICCAI 2016  
+
+Computer-Assisted and Robotic Endoscopy MICCAI 2016, Athens, 
+
+Machine Learning for Medical Image Reconstruction: Granada, Spain, ...
+---------
+after run 60, in predict, about 15min
+
+Exception ignored in: <bound method BaseSession.__del__ of <tensorflow.python.client.session.Session object at 0x7f7f597e2668>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 686, in __del__
+TypeError: 'NoneType' object is not callable
