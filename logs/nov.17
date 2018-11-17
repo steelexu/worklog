@@ -1,0 +1,74 @@
+gan
+
+infer the attention  of chormosome in neuclei
+
+
+
+
+--------dataset
+http://wiki.fast.ai/index.php/Image_Datasets
+dog and cat  https://www.kaggle.com/c/dog-breed-identification
+
+Fashion-MNIST
+https://github.com/openimages/dataset
+	https://research.googleblog.com/2016/09/introducing-open-images-dataset.html
+http://www.visualqa.org/
+
+https://github.com/fivethirtyeight/uber-tlc-foil-response
+
+
+-----------------(spacial  Relation Network)?  可解释神经网络
+https://github.com/facebookresearch/clevr-iep
+
+https://zhuanlan.zhihu.com/p/26883013
+该模型不仅在 CLEVR、VRD 和 Visual Genome 三个数据集上均优...
+	Quick, Draw! Doodle Recognition Challenge
+ https://www.kaggle.com/c/google-ai-open-images-visual-relationship-track
+https://www.kaggle.com/c/google-ai-open-images-object-detection-track
+
+在CLEVR中，首先给神经网络展现一系列简单的事物，例如棱锥、立方体和球体。然后研究者们用自然语言对AI提出一系列例如“立方体和圆柱是同种质地吗
+
+纽约大学联合 Google Brain 开发了新的视觉问答数据集 ( COG ) 以及对应的网络架构。推理智能体必须记住它的视觉历史中相关的片段，忽略不相关的细节，基于新的信息来更新和操作记忆，以及在后面的时间里利用这些记忆来作出决策。
+
+https://www.kaggle.com/c/landmark-retrieval-challenge
+https://www.kaggle.com/c/landmark-recognition-challenge
+-----biomed
+
+https://www.kaggle.com/c/forest-cover-type-kernels-only
+https://www.kaggle.com/c/inaturalist-2018
+https://www.kaggle.com/c/whale-categorization-playground
+https://www.kaggle.com/c/plant-seedlings-classification
+
+
+
+#rsna
+https://www.kaggle.com/c/histopathologic-cancer-detection
+	https://github.com/basveeling/pcam  32x32px region
+https://www.kaggle.com/c/human-protein-atlas-image-classification
+
+--------
+
+区块链 钱包 go语言
+
+
+https://www.bilibili.com/video/av26615189
+go语言开发区块链教程
+
+
+Neurala与CSDN宣布战略合作，将一站式AI平台BrainBuilder带给中国开发者
+
+
+----
+more surf
+
+cs377 healthcare course
+
+
+Dynamics of Visual Motion Processing
+
+edx
+https://www.edx.org/course/light-spike-sight-neuroscience-vision-mitx-9-01-1x
+
+@epfl 
+multi-scale brain on youtube
+neuronal dynamics of cognition
