@@ -1,0 +1,112 @@
+
+Machine Learning for Health
+http://copypasteprogrammers.com/medical-imaging-meets-nips-a-summary-43bf1b0d0c62/
+
+
+http://metalearning.ml/2018/
+http://phys2018.csail.mit.edu/
+
+
+第三天深度讲智堂@ DeepAITalking
+https://harald.co/2018/12/06/neurips-day-3/
+---
+
+第四篇最佳论文：Non-Delusional Q-Learning and Value-Iteration
+作者：Tyler Lu、Dale Schuurmans、Craig Boutilier，他们全都来自Google AI。其中一作Tyler Lu本硕毕业于加拿大滑铁卢大学，博士毕业于多伦多大学。
+在这篇论文中，作者指出妄想偏见（delusional bias）成为Q-Learning部署中的一个重要问题，而他们开发并分析了一个新的方法，可以完全消除妄想偏见。作者还提出了几种针对大规模强化学习问题的实用启发式方法，以减轻妄想偏差的影响。
+
+
+
+
+ODE网络https://arxiv.org/abs/1806.07366
+四人均来自多伦多大学向量研究所
+https://papers.nips.cc/paper/7892-neural-ordinary-differential-equations.pdf 
+https://www.reddit.com/r/MachineLearning/comments/8sjzmq/r_neural_ordinary_differential_equations/
+
+
+#video of oral demo !!
+
+
+
+
+
+
+
+
+Machine Learning for Molecules
+http://www.quantum-machine.org/workshops/nips2018/
+Powerful, transferable representations for molecules through intelligent task selection in deep multitask networks [arXiv]
+https://arxiv.org/abs/1809.06334
+LEARNING PROTEIN STRUCTURE WITH A DIFFERENTIABLE SIMULATOR
+蛋白质代谢  biochem/bio_energeti------------bioteck-------------nanoteck
+
+
+
+
+vision+stats+optim
+PyLissom: A tool for modeling computational maps of the visual cortex in PyTorch
+
+
+计算神经学 
+why body
+https://www.youtube.com/watch?v=RjD1aLm4Thg
+
+------------------------------
+
+https://2018.mloss.org
+http://learningsys.org/nips18/schedule.html
+
+>>workshop
+xpandas--cope with arbitrary structured types (such as time series, images)
+
+Salad: A Toolbox for  Semi-supervised Adaptive Learnin
+modular probabilistic programming language MXFusion Bayesian
+non-parametric models---framework of variational inference
+https://github.com/domainadaptation/salad
+
+
+
+http://bayesiandeeplearning.org/
+
+Bayesian optimization for tuning the JVM,
+https://www.youtube.com/watch?v=YhNl468S8CI
+
+
+
+
+
+https://github.com/mctorch/mctorch
+	manifold optimization f
+https://github.com/LarsHH/sherpa
+	hyperparameter optimization algorithms
+https://www.allinsights.io/gravity-examples
+	https://github.com/albermax/innvestigate
+https://projects.coin-or.org/Gravity
+
+
+
+	
+
+PyTorch Geometry：PyTorch的计算机几何视觉库，提供一组常例和可区分的模块。
+TensorBoardX：用于将PyTorch模型记录到TensorBoard的模块
+
+https://github.com/GPflow/GPflow
+	building Gaussian process models
+
+
+
+@ibm
+open-Fabric for Deep Learning (FfDL)
+MI-Prometheus
+
+
+https://sites.google.com/site/nips2018mlits/home
+scheduling [1], datastructure design [2], microarchitecture [3], compilers[4], and control of warehouse scale computingsystems
+
+
+
+zoox?? simulator for car
+	@its workshop
+
+https://flow-project.github.io
+	+sumo,   traffic control benchmarking framework
