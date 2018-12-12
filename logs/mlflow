@@ -1,0 +1,44 @@
+
+steps
+mlflow and redis??
+kubeflow  and the queue
+ScheduledWorkflow CRD 扩展了 argoproj/argo 的 Workflow 定义，其 API 在此处可见。这也是流水线项目中的核心部分，
+arrow
+	Databricks-Hydrogen 项目基于 Apache Arrow 构建
+		v.s. ray
+
+
+
+mlflow gui
+	notebook
+		+pipeline?
+	+autossl/featuretools+ray.tune
+
+
+
+
+scikit-learn and the redis
+ml and celery
+	kubeflow means a scheduler
+
+
+https://github.com/kubeflow/kubeflow/issues/136
+	https://news.ycombinator.com/item?id=17239727
+
+
+https://github.com/flmu/mlflow-tracking-server
+https://github.com/michhar/mlflow-keras-example/
+	yolo
+--------kubeflow---
+
+
+
+https://www.zdnet.com/article/apache-spark-sets-out-to-standardize-distributed-machine-learning-training-execution-and-deployment/
+
+或者称之为流水线（pipeline），可以将其当做一个有向无环图（DAG）。其中的每一个节点，在 kubeflow/pipelines 的语义下被称作组件（component）。组件在图中作为一个节点，其会处理真正的逻辑，比如预处理，数据清洗，模型训练等等。每一个组件负责的功能不同，但有一个共同点，即组件都是以 Docker 镜像的方式被打包，以容器的方式被运行的。
+
+experiment）是一个工作空间，在其中可以针对流水线尝试不同的配置。运行（run）是流水线的一次执行，用户在执行的过程中可以看到每一步的输出文件，以及日志。
+
+
+
+Beam 近期添加了支持除原生 Java 以外其它编程语言的机制，Spark 的主要竞争对手Apache Flink 正是使用该机制添加了对 Python 的支持。
