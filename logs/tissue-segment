@@ -1,0 +1,49 @@
+
+
+malp_em？
+dltk ibsr
+
+
+https://sergivalverde.github.io/docs/thesis_valverde.pdf
+https://github.com/NIC-VICOROB/MSSEG
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FAST/
+============https://github.com/search?p=2&q=tissue+segmentation+brain&type=Repositories
+
+https://github.com/fitushar/Brain-Tissue-Segmentation-Using-Deep-Learning-Pipeline-NeuroNet
+https://github.com/fitushar/Brain-Tissue-Segmentation-Using-Expectation-Maximization
+
+
+To get brain atlas segmentation (https://arxiv.org/abs/1711.00457 extension of this work) you don't need to run any code. Just sign up at brainchop.org, upload your 3T MRI T1 image and get brain atlas in 1-2 minutes.
+ MeshNet is volumetric convolutional neural network based on dilated kernels [1] for image segmentation. Model has been trained for brain tissue segmentation from imperfect labeling obtained using FreeSurfer automatic approach
+# https://github.com/Entodi/MeshNet
+
+
+https://github.com/mrkolarik/3D-brain-segmentation
+
+-------
+https://github.com/JanaLipkova/s3
+
+https://github.com/ANTsX/ANTsRNet
+ framework merging ANTsR and deep learning
+	https://github.com/ANTsRNet/BrainSegmentation
+
+============
+https://www.nitrc.org/search/?type_of_search=group&q=+tissue+segmentation
+
+
+
+
+
+
+
+
+
+
+===other
+todo join, Humpback Whale Identification,vsb powerline 
+
+https://sibis.sri.com/abcd-np-challenge/
+
+http://bigwww.epfl.ch/smlm/challenge2016/
+single cell
+
